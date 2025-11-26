@@ -3,7 +3,7 @@
 // @namespace    http://github.com/Dubz/
 // @downloadURL  https://github.com/Dubz/tampermonkey-scripts/raw/refs/heads/main/discord/OAuth%20Guard.user.js
 // @updateURL    https://github.com/Dubz/tampermonkey-scripts/raw/refs/heads/main/discord/OAuth%20Guard.user.js
-// @version      2025.1019.0136
+// @version      2025.1126.2104
 // @description  Automatically redirect to block apps from sensitive permissions when using OAuth connected apps
 // @author       Dubz (dubzz. <@284859960070766602>)
 // @homepage     https://github.com/Dubz/tampermonkey-scripts/discord/OAUth%20Guard.user.js
@@ -15,7 +15,9 @@
 'use strict';
 
 const protect = [
+    "dm_channels.read",
     "email",
+    "gdm.join",
     "guilds.join",
 ];
 
