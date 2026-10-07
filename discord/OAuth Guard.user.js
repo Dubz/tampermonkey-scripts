@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         Discord OAuth Guard
+// @name         Discord - OAuth Guard
 // @namespace    http://github.com/Dubz/
-// @downloadURL  https://github.com/Dubz/tampermonkey-scripts/raw/refs/heads/main/discord/OAuth%20Guard.user.js
-// @updateURL    https://github.com/Dubz/tampermonkey-scripts/raw/refs/heads/main/discord/OAuth%20Guard.user.js
-// @version      2025.1126.2104
+// @downloadURL  https://raw.githubusercontent.com/Dubz/tampermonkey-scripts/refs/heads/main/discord/OAuth%20Guard.user.js
+// @updateURL    https://raw.githubusercontent.com/Dubz/tampermonkey-scripts/refs/heads/main/discord/OAuth%20Guard.user.js
+// @version      2026.1007.2023
 // @description  Automatically redirect to block apps from sensitive permissions when using OAuth connected apps
 // @author       Dubz (dubzz. <@284859960070766602>)
-// @homepage     https://github.com/Dubz/tampermonkey-scripts/discord/OAUth%20Guard.user.js
+// @homepage     https://github.com/Dubz/tampermonkey-scripts/discord/OAuth%20Guard.user.js
 // @match        https://discord.com/oauth2/authorize*
 // @icon         none
 // @grant        none
